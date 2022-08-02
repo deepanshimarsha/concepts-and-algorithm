@@ -1,5 +1,5 @@
 #no of ways
-def CoinChange(arr,n,Sum):
+def CoinChange(arr,n,Sum,):
     if Sum == 0:
         return 1
     elif n == 0  and Sum > 0:
